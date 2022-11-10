@@ -13,7 +13,7 @@ button.onclick = function() {
     })
     const socket = new WebSocket('wss://api.deepgram.com/v1/listen', [
       'token',
-      'fffff14aa4ecc90da6f276833599552234f44c1b',
+      'Your_Deepgram_API',
     ])
     socket.onopen = () => {
 
